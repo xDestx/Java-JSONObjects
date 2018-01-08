@@ -10,7 +10,7 @@ public class JBoolean implements JOk {
     private final boolean b;
     /**
      * Construct a boolean object
-     * @param b
+     * @param b The boolean value
      */
     public JBoolean(boolean b) {
         this.b = b;
@@ -22,7 +22,7 @@ public class JBoolean implements JOk {
 
     /**
      * Get the boolean value of this object
-     * @return
+     * @return The boolean value
      */
     public boolean getValue() {
         return this.b;

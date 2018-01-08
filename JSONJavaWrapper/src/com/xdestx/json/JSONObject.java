@@ -16,7 +16,7 @@ public class JSONObject implements JOk {
 	/**
 	 * Construct a JSON Object with the specified attributes
 	 * 
-	 * @param objectMap
+	 * @param objectMap A Map of Strings with JOk objects attached
 	 */
 	public JSONObject(Map<String, JOk> objectMap) {
 		this.jsonMap = objectMap;

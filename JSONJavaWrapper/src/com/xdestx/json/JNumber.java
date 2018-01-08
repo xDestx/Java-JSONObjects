@@ -19,7 +19,7 @@ public class JNumber implements JOk {
     
     /**
      * Construct a number using {@link java.lang.Number}
-     * @param n
+     * @param n The number
      */
     public JNumber(Number n) {
         this.d = n.doubleValue();
@@ -27,7 +27,7 @@ public class JNumber implements JOk {
     
     /**
      * Construct a number using an int
-     * @param n
+     * @param n The number
      */
     public JNumber(int n) {
         this.d = (double)n;
@@ -35,7 +35,7 @@ public class JNumber implements JOk {
     
     /**
      * Construct a number using a float
-     * @param n
+     * @param n The number
      */
     public JNumber(float n) {
         this.d = (double)n;
@@ -43,7 +43,7 @@ public class JNumber implements JOk {
     
     /**
      * Constructa number using a short
-     * @param n
+     * @param n The number
      */
     public JNumber(short n) {
         this.d = (double)n;
@@ -51,7 +51,7 @@ public class JNumber implements JOk {
     
     /**
      * Construct a number using a long (Converted to a double, use caution)
-     * @param n
+     * @param n The number
      */
     public JNumber(long n) {
         this.d = (double)n;

@@ -9,7 +9,7 @@ public class JString implements JOk {
     private final String jstr;
     /**
      * Construct a JString object with the specified String
-     * @param s
+     * @param s The String
      */
     public JString(String s) {
         this.jstr = s;
@@ -20,7 +20,7 @@ public class JString implements JOk {
     
     /**
      * Retrieve the String value of this object
-     * @return 
+     * @return The String
      */
     public String getValue() {
         return this.jstr;
