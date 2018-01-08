@@ -8,4 +8,3 @@
 ### Currently missing
 - Load JSONObject from a String
 - Support functions?
-- Correct packaging
