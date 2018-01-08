@@ -1,13 +1,22 @@
 package com.xdestx.json;
 
+/**
+ * A wrapper class for an Array of {@link com.xdest.json.JOk JOk} objects.
+ * @author xDestx
+ *
+ */
 class JArray implements JOk {
 
     private final JOk[] jarr;
-
+    /**
+     * Construct an Object with the specified array
+     * @param jarr
+     */
     public JArray(JOk[] jarr) {
         this.jarr = jarr;
     }
 
+    
     public String toJSONString() {
         String jsonString = "";
         jsonString+='[';
@@ -19,6 +28,10 @@ class JArray implements JOk {
         return jsonString;
     }
     
+    /**
+     * Retrieve the array stored by this obejct
+     * @return
+     */
     public JOk[] getArray() {
         return this.jarr;
     }
